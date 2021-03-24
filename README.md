@@ -41,7 +41,7 @@ python reuters_crawler.py reuters.cfg
 python nytimes_crawler.py nytimes.cfg
 ```
 
-## Configuration
+## Configuration to RUN
 
 Modify `reuters.cfg`, `nytimes.cfg` and `bbc.cfg` in settings folder, the main configuration items may be `start_date`, `end_date` and `path`.
 
