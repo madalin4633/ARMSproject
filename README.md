@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### BBC News
+### BBC News - RUN
 
 ```bash
 python bbc_crawler.py settings/bbc.cfg
@@ -41,10 +41,10 @@ python reuters_crawler.py reuters.cfg
 python nytimes_crawler.py nytimes.cfg
 ```
 
-## Configuration
+## Configuration for TIME PERIOD
 
 Modify `reuters.cfg`, `nytimes.cfg` and `bbc.cfg` in settings folder, the main configuration items may be `start_date`, `end_date` and `path`.
 
 ## Notes
-
+Results will be found in dataset.
 If other news sources need to be added, just add files as the architecture, extend the basic class in each folder. Some methods may need to be rewrote.
